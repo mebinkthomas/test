@@ -49,8 +49,11 @@ header a{
 .logo{
   display: inline-block;
   letter-spacing: 3px;
-  font-weight: 510;
+  font-weight: 500;
   padding: 5px 0;
+}
+.ls-2{
+  letter-spacing: 2px;
 }
 
 /* Showcase */
@@ -317,7 +320,7 @@ header a{
   width:30px;
   height: 35px;
 }
-.contact-info, .address{
+.contact-info, .address, .social-media{
   line-height: 2;
   letter-spacing: 2px;
 }
