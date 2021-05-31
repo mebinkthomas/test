@@ -6,56 +6,61 @@
     <meta name="description" content="Sound system and lighting">
 	  <meta name="keywords" content="Tomson lights and sound">
     <title>TomsonSound | Welcome</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
       <div class="container head">
-        <h1><a href="index.html">TomsonSound</a></h1>
+        <h1><a class="logo" href="index.html">Tomson<span class="green">Sound</span></a></h1>
         <div class="info">
           <img class="icon" src="/img/whatsapp.svg" alt="">&nbsp;&nbsp; <span> +91-9349729086</span>
         </div>
       </div>
     </header>
     <section class="showcase">
-      
+      <h1 class="hero-heading container">Tomson Lights & Sound</h1>
     </section>
     <section class="section-2 pt-2">
       <p class="section-heading container">Services</p>
       <div class="underline container"></div>
-      <div class="box-one container pt-2">
-        <img src="/img/content_img1.jpg" class="image" width="600" height="400" alt="">
-        <div class="content-1">
-          <ul>
-            <li>Professional Stage Light</li>
-            <li>Professional Sound System</li>
-            <li>Smoke Machine, Moving Head</li>
-            <li>Lazer Lights, Haze Machine</li>
-            <li>Strobe, Light Controller</li>
-            <li>Follow Spot, Dimmer Pack</li>
-            <li>Public Light</li>
-          </ul>
+      <div class="container pt-2">
+        <div class="card" data-aos="fade-up">
+          <img src="/img/content_img1.jpg" class="image" alt="">
+          <div class="content-1">
+            <ul>
+              <li>Professional Stage Light</li>
+              <li>Professional Sound System</li>
+              <li>Smoke Machine, Moving Head</li>
+              <li>Lazer Lights, Haze Machine</li>
+              <li>Strobe, Light Controller</li>
+              <li>Follow Spot, Dimmer Pack</li>
+              <li>Public Light</li>
+            </ul>
+          </div>
         </div>
-        <div class="content-1">
-          <ul>
-            <li>Pedestrial Fan & Portable Air Cooler</li>
-            <li>Wedding Illumination</li>
-            <li>LED Lights & MH Lights</li>
-            <li>Public Address Systems</li>
-            <li>Video Wall</li>
-            <li>LED Pixel Board</li>
-            <li>DJ Pack & lot more</li>
-            <li>Generator(1 KVA to 125 KVA)</li>
-          </ul>
+        <div class="card" data-aos="fade-right">
+          <img src="/img/content_img2.jpg" class="image" alt="">
+          <div class="content-1">
+            <ul>
+              <li>Pedestrial Fan & Portable Air Cooler</li>
+              <li>Wedding Illumination</li>
+              <li>LED Lights & MH Lights</li>
+              <li>Public Address Systems</li>
+              <li>Video Wall</li>
+              <li>LED Pixel Board</li>
+              <li>DJ Pack & lot more</li>
+              <li>Generator(1 KVA to 125 KVA)</li>
+            </ul>
+          </div>
         </div>
-        <img src="/img/content_img2.jpg" class="image" width="600" height="400" alt="">
       </div>
     </section>
     <section class="pt-2">
       <p class="section-heading container">Our Works</p>
       <div class="underline container"></div>
-      <div class="portfolio container pt-2">
+      <div class="portfolio container pt-2" data-aos="fade-left">
         <div class="item">
           <img src="/img/work1.jpg" alt="">
           <div class="action">
@@ -105,6 +110,13 @@
       <p>TomsonSound, Copyright &copy; 2021</p>
     </footer>
 
-   <script src="/js/script.js"></script> 
+   <script src="/js/script.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 950
+      });
+    </script> 
   </body>
 </html>
