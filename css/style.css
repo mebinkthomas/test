@@ -63,7 +63,6 @@ header a{
   height: 550px;
 }
 .content-1{
-  line-height: 2;
   letter-spacing: 2px;
 }
 .content-1 ul{
@@ -75,6 +74,7 @@ header a{
 .content-1 ul li{
   margin-left: 2em;
   position: relative;
+  line-height: 2;
 }
 .content-1 ul li::before{
   content: '';
@@ -84,7 +84,7 @@ header a{
   height: 20px;
   background-image: url('/img/bullet.svg');
   background-size: contain;
-  margin-right: .5em;
+  margin: 4px 2.5px 0 0;
 }
 
 .image{
